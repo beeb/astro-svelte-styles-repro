@@ -11,5 +11,11 @@
   },
   "dependencies": {
     "astro": "^1.1.7"
+  },
+  "devDependencies": {
+    "@astrojs/svelte": "^1.0.0",
+    "svelte": "^3.46.4",
+    "svelte-video-player": "^1.2.5",
+    "typescript": "^4.8.2"
   }
 }
