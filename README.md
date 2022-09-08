@@ -1,6 +1,8 @@
 # Bug reproduction
 
-Try to `pnpm run build` and then `pnpm run preview`. The svelte component's styles are generated in the `assets`
+Check ou the `dist` folder (alternative, `pnpm run build` and then `pnpm run preview`):
+
+The svelte component's styles are generated in the `assets`
 directory but not linked in the resulting html, resulting in unstyled component elements.
 
 # Astro Starter Kit: Minimal
