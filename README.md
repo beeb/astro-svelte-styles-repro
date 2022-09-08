@@ -1,6 +1,6 @@
 # Bug reproduction
 
-Check ou the `dist` folder (alternative, `pnpm run build` and then `pnpm run preview`):
+Check out the `dist` folder (alternative, `pnpm run build` and then `pnpm run preview`):
 
 The svelte component's styles are generated in the `assets`
 directory but not linked in the resulting html, resulting in unstyled component elements.
